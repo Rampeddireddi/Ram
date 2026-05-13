@@ -28,7 +28,7 @@ function ContactSection({ contact }) {
     >
       <h2 className="text-2xl font-semibold text-white">Contact</h2>
       <p className="mt-4 text-slate-300">
-        Reach out for backend engineering opportunities and collaboration.
+        Reach out for opportunities and collaboration.
       </p>
       <div className="mt-5 flex flex-wrap gap-3">
         <a

@@ -2,19 +2,28 @@ import resumePdfUrl from "./Resume.pdf?url";
 
 export const portfolioData = {
   name: "Pansaramanna Peddireddi",
-  role: "Software Developer - Backend Engineer",
+  role: "Software Developer - Full Stack Developer",
   resumeLink: resumePdfUrl,
   about:
     "Backend-focused software developer who builds scalable, event-driven systems and resilient APIs. I enjoy turning complex distributed-system problems into practical, production-ready solutions.",
   skills: [
     "C++",
-    "MERN Stack",
+    "ReactJS",
+    "Python",
+    "Django",
     "PostgreSQL",
+    "ExpressJS",
+    "NodeJS",
+    "MongoDB",
+    "TailwindCSS",
+    "MySQL",
+    "Linux",
+    "AWS",
     "Redis",
     "RabbitMQ",
-    "Kafka",
     "Docker",
     "GitHub",
+    "Git"
   ],
   projects: [
     {
@@ -51,6 +60,42 @@ export const portfolioData = {
         "https://github.com/Rampeddireddi/Multi-Tenant-SAAS-Platform",
     },
   ],
+
+  experiences: [
+    {
+      company: "Partnr Network",
+      role: "Trainee",
+      duration: "Dec 2025 - Present",
+      location: "India",
+      points: [
+        "Developed backend solutions including distributed rate limiting services and event-driven applications.",
+        "Implemented CQRS architecture patterns to improve scalability and separation of concerns.",
+        "Worked extensively with Redis, RabbitMQ, Kafka, and Docker for distributed systems development.",
+        "Built and managed containerized applications.",
+      ],
+    },
+    {
+      company: "Technical Hub",
+      role: "AWS Cloud Intern",
+      duration: "June 2025 - July 2025",
+      location: "Kakinada, India",
+      points: [
+        "Developed automated backup solutions using AWS S3 and Lambda, improving data reliability and reducing manual intervention.",
+        "Automated scheduled start and stop operations for AWS EC2 instances using AWS Lambda triggers.",
+      ],
+    },
+    {
+      company: "SBTET AP",
+      role: "Front-End Development Intern",
+      duration: "Jan 2023 - June 2023",
+      location: "Mangalagiri, India",
+      points: [
+        "Built responsive dashboards and user interfaces for affiliation workflows, improving operational efficiency.",
+        "Collaborated within an Agile team on UI/UX enhancements and frontend performance optimization.",
+      ],
+    },
+  ],
+
   contact: {
     email: "rampeddireddi1@gmail.com",
     github: "https://github.com/Rampeddireddi",
