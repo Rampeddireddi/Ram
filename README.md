@@ -4,7 +4,7 @@
 
 A responsive single-page portfolio built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**. It presents a hero introduction, about copy, skills, featured projects with GitHub links, and contact actions. Motion includes parallax on decorative layers, scroll-triggered reveals, staggered skill badges, alternating project cards, and an optional cursor glow on large screens.
 
-**Live site:** _Add your deployed URL after publishing (e.g. Vercel or Netlify)._  
+**Live site:** https://ram-iota-seven.vercel.app/  
 
 ---
 
