@@ -118,7 +118,44 @@ export const portfolioData = {
       ],
     },
   ],
+ certifications: [
+  {
+    title: "AWS Certified Developer – Associate",
+    issuer: "Amazon Web Services",
+    link:
+      "https://www.credly.com/badges/ca786fa2-4448-426c-9d11-5a5ebbc71a26/public_url",
+  },
+  {
+    title: "Docker Essentials: A Developer Introduction",
+    issuer: "IBM",
+    link:
+      "https://www.credly.com/badges/e481193a-c5b7-4dc1-a36d-5929ff6707c4/public_url",
+  },
+  {
+    title: "Postman API Fundamentals Student Expert",
+    issuer: "Postman",
+    link:
+      "https://badgr.com/public/assertions/PUzdzHBVQhOMm8Q7_GMdVA?identity__email=23a95a0508%40aec.edu.in",
+  },
+  {
+    title: "Programming Essentials in C++",
+    issuer: "Cisco",
+    link: "",
+  },
+],
 
+achievements: [
+  {
+    title: "Solved 950+ Coding Problems",
+    description:
+      "Solved 950+ coding problems across LeetCode, GeeksforGeeks, and CodeChef.",
+  },
+  {
+    title: "Project Space 2025 Finalist",
+    description:
+      "Secured 9th place out of 123 teams in Project Space 2025.",
+  },
+],
   contact: {
     email: "rampeddireddi1@gmail.com",
     github: "https://github.com/Rampeddireddi",

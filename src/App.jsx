@@ -6,7 +6,7 @@ import HeroSection from "./sections/HeroSection";
 import ProjectsSection from "./sections/ProjectsSection";
 import SkillsSection from "./sections/SkillsSection";
 import ExperienceSection from "./sections/ExperienceSection";
-
+import CertificationsSection from "./sections/CertificationsSection";
 function App() {
   return (
     <div className="relative isolate min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
@@ -20,6 +20,7 @@ function App() {
           <SkillsSection skills={portfolioData.skills} />
           <ProjectsSection projects={portfolioData.projects} />
           <ExperienceSection experiences={portfolioData.experiences} />
+          <CertificationsSection certifications={portfolioData.certifications} achievements={portfolioData.achievements} />
           <ContactSection contact={portfolioData.contact} />
         </div>
       </main>
