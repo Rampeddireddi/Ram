@@ -5,7 +5,7 @@ export const portfolioData = {
   role: "Software Developer - Full Stack Developer",
   resumeLink: resumePdfUrl,
   about:
-    "Backend-focused software developer who builds scalable, event-driven systems and resilient APIs. I enjoy turning complex distributed-system problems into practical, production-ready solutions.",
+    "Love Building Scalable Software Solutions, Eager to Contribute and Learn in a Dynamic Tech Environment",
   skills: [
     "C++",
     "ReactJS",
