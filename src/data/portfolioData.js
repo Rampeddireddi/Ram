@@ -27,6 +27,18 @@ export const portfolioData = {
   ],
   projects: [
     {
+  title: "InsightFlow Multi Tenant Analytics Platform",
+  tools: "Django, React.js, Tailwind CSS, PostgreSQL, Redis, Docker",
+  points: [
+    "Built a multi tenant SaaS analytics platform with secure workspace level data isolation.",
+    "Implemented OAuth based authentication and tenant switching with role based access control.",
+    "Optimized dashboard APIs using Redis caching and query optimization techniques.",
+    "Containerized frontend, backend, PostgreSQL, and Redis services using Docker Compose.",
+  ],
+  github:
+    "https://github.com/Rampeddireddi/Insightflow-Multi-Tenant-Analytics",
+},
+    {
       title: "Event-Driven Analytics Platform",
       tools: "Node.js, Express.js, RabbitMQ, CQRS, Docker",
       points: [
@@ -59,6 +71,18 @@ export const portfolioData = {
       github:
         "https://github.com/Rampeddireddi/Multi-Tenant-SAAS-Platform",
     },
+    {
+  title: "Event Driven System using Kafka",
+  tools: "Node.js, Express.js, Apache Kafka, MySQL, Docker",
+  points: [
+    "Designed an event driven microservices architecture using Apache Kafka.",
+    "Implemented Outbox Pattern for reliable event publishing between services.",
+    "Built Inventory and Notification services consuming Kafka events asynchronously.",
+    "Containerized Kafka, MySQL, and microservices using Docker Compose for local deployment.",
+  ],
+  github:
+    "https://github.com/Rampeddireddi/Event-Driven-System-using-Kafka",
+},
   ],
 
   experiences: [
