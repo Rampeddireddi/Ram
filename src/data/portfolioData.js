@@ -71,17 +71,16 @@ export const portfolioData = {
       github:
         "https://github.com/Rampeddireddi/Multi-Tenant-SAAS-Platform",
     },
-    {
-  title: "Event Driven System using Kafka",
-  tools: "Node.js, Express.js, Apache Kafka, MySQL, Docker",
+   {
+  title: "Automated EC2 Lifecycle and Snapshot Management",
+  tools: "AWS EC2, Lambda, CloudWatch, EBS, IAM, Boto3, Python",
   points: [
-    "Designed an event driven microservices architecture using Apache Kafka.",
-    "Implemented Outbox Pattern for reliable event publishing between services.",
-    "Built Inventory and Notification services consuming Kafka events asynchronously.",
-    "Containerized Kafka, MySQL, and microservices using Docker Compose for local deployment.",
+    "Automated EC2 instance start stop operations and EBS snapshot management using AWS Lambda.",
+    "Reduced manual infrastructure maintenance effort by scheduling automated workflows.",
+    "Configured secure IAM roles and permissions for auditable cloud resource management.",
   ],
   github:
-    "https://github.com/Rampeddireddi/Event-Driven-System-using-Kafka",
+    "https://github.com/Rampeddireddi/Automated-EC2-Lifecycle-and-Snapshot-Management-using-AWS-Lambda-and-Boto3",
 },
   ],
 
