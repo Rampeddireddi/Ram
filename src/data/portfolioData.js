@@ -162,5 +162,6 @@ achievements: [
     email: "rampeddireddi1@gmail.com",
     github: "https://github.com/Rampeddireddi",
     linkedin: "https://www.linkedin.com/in/rampeddireddi1/",
+    X: "https://x.com/Rampeddireddi2",
   },
 };

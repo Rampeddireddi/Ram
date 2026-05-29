@@ -53,6 +53,14 @@ function ContactSection({ contact }) {
         >
           LinkedIn
         </a>
+         <a
+          href={contact.X}
+          target="_blank"
+          rel="noreferrer"
+          className="rounded-lg border border-white/20 px-4 py-2 text-sm text-white hover:border-cyan-300 hover:text-cyan-200"
+        >
+          X
+        </a>
       </div>
     </motion.section>
   );
