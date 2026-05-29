@@ -38,50 +38,52 @@ export const portfolioData = {
   github:
     "https://github.com/Rampeddireddi/Insightflow-Multi-Tenant-Analytics",
 },
-    {
-      title: "Event-Driven Analytics Platform",
-      tools: "Node.js, Express.js, RabbitMQ, CQRS, Docker",
-      points: [
-        "Designed an event-driven analytics platform using RabbitMQ to process real-time events efficiently.",
-        "Applied CQRS to separate write services and analytics read models, improving query speed.",
-        "Developed asynchronous event consumers to process activity streams with sub-second latency.",
-      ],
-      github:
-        "https://github.com/Rampeddireddi/CQRS-and-Event-Driven-Analytics-System-with-a-Message-Broker",
-    },
-    {
-      title: "Distributed Rate Limiting Service",
-      tools: "Node.js, Express.js, Redis, Docker",
-      points: [
-        "Engineered a Redis-based rate limiter to regulate API requests across microservices.",
-        "Implemented distributed API rate limiting using the Sliding Window Log algorithm with Redis.",
-        "Ensured strong consistency under high concurrency using Redis atomic operations and Lua scripts.",
-      ],
-      github:
-        "https://github.com/Rampeddireddi/Distributed-Rate-Limiting-microservice-with-Redis",
-    },
-    {
-      title: "Multi-Tenant SaaS Platform",
-      tools: "Node.js, Express.js, PostgreSQL, React, Docker, JWT",
-      points: [
-        "Architected a multi-tenant SaaS platform with RBAC-based access control.",
-        "Implemented JWT-based authentication and authorization for secure access control.",
-        "Containerized services with Docker Compose, reducing setup and deployment time.",
-      ],
-      github:
-        "https://github.com/Rampeddireddi/Multi-Tenant-SAAS-Platform",
-    },
-   {
-  title: "Automated EC2 Lifecycle and Snapshot Management",
-  tools: "AWS EC2, Lambda, CloudWatch, EBS, IAM, Boto3, Python",
+{
+  title: "Distributed URL Shortener with Collision-Resistant ID Generation and Analytics",
+  tools: "Node.js, Express.js, PostgreSQL, Redis, Docker, K6",
   points: [
-    "Automated EC2 instance start stop operations and EBS snapshot management using AWS Lambda.",
-    "Reduced manual infrastructure maintenance effort by scheduling automated workflows.",
-    "Configured secure IAM roles and permissions for auditable cloud resource management.",
+    "Built a distributed URL shortener with collision-resistant ID generation using PostgreSQL.",
+    "Implemented Redis caching to optimize redirects and reduce database load.",
+    "Developed an event-driven analytics pipeline using Redis Streams and Docker Compose.",
   ],
   github:
-    "https://github.com/Rampeddireddi/Automated-EC2-Lifecycle-and-Snapshot-Management-using-AWS-Lambda-and-Boto3",
+    "https://github.com/Rampeddireddi/URL-Shortener-with-Collision-Resistant-ID-Generation-and-Analytics",
 },
+{
+  title: "Real-Time SSE Sports Score Feed Multiplexer",
+  tools: "Node.js, Express.js, Redis, Docker, SSE",
+  points: [
+    "Built a real-time sports score feed using Server-Sent Events (SSE).",
+    "Implemented event replay and subscription management for client synchronization.",
+    "Containerized the application using Docker and Docker Compose.",
+  ],
+  github:
+    "https://github.com/Rampeddireddi/Real-Time-SSE-Sports-Score-Feed-Multiplexer",
+},
+{
+  title: "Event-Driven Asynchronous Image Processing Service with AWS SQS",
+  tools: "Node.js, Express.js, AWS SQS, AWS S3, Docker, LocalStack",
+  points: [
+    "Built an asynchronous image processing service using Node.js and Express.js.",
+    "Designed a decoupled pipeline using AWS SQS and AWS S3.",
+    "Deployed containerized worker services with Docker and LocalStack.",
+  ],
+  github:
+    "https://github.com/Rampeddireddi/Event-Driven-Asynchronous-Image-Processing-Service-with-AWS-SQS",
+},
+{
+  title: "Virtual Network Simulator for Packet Tracing",
+  tools: "Node.js, Express.js, Docker",
+  points: [
+    "Built a REST API to simulate network routing and longest prefix matching.",
+    "Implemented custom DNS resolution and firewall rule processing.",
+    "Containerized the backend using Docker for virtual network testing.",
+  ],
+  github:
+    "https://github.com/Rampeddireddi/Packet-Tracer-Simulation",
+},
+
+
   ],
 
   experiences: [
