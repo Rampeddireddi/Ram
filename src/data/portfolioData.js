@@ -2,28 +2,29 @@ import resumePdfUrl from "./Resume.pdf?url";
 
 export const portfolioData = {
   name: "Pansaramanna Peddireddi",
-  role: "Software Developer - Full Stack Developer",
+  role: "Full Stack Developer",
   resumeLink: resumePdfUrl,
   about:
     "Love Building Scalable Software Solutions, Eager to Contribute and Learn in a Dynamic Tech Environment",
   skills: [
-    "C++",
     "ReactJS",
-    "Python",
     "Django",
+    "NodeJS",
     "PostgreSQL",
     "ExpressJS",
-    "NodeJS",
-    "MongoDB",
     "TailwindCSS",
-    "MySQL",
     "Linux",
     "AWS",
     "Redis",
     "RabbitMQ",
     "Docker",
-    "GitHub",
-    "Git"
+    "Git",
+    "TypeScript",
+    "GitHub Actions",
+    "Bash",
+    "SSH",
+    "GNU Utilities",
+    "OAuth 2.0"
   ],
   projects: [
     {

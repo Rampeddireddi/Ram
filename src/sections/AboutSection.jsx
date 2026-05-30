@@ -37,9 +37,9 @@ function AboutSection() {
       />
       <h2 className="relative text-2xl font-semibold text-white">About Me</h2>
       <p className="relative mt-4 max-w-4xl leading-relaxed text-slate-300">
-        I focus on backend architecture, event-driven workflows, API security, and
-        high-performance data paths. My work is centered on reliability, maintainability, and
-        practical scalability for real-world production systems.
+      I build full-stack SaaS applications and backend systems using Django, Node.js, React, 
+      PostgreSQL, Redis, and Docker. I'm particularly interested in distributed systems, system design, 
+      and scalable software architecture.
       </p>
     </motion.section>
   );
